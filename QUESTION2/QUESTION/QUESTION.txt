@@ -1,0 +1,31 @@
+QUESTION: Explain the role of the following key properties in the Flexbox layout model
+1) justify-content
+2) align-item
+3) gap
+4) flex-direction
+5) flex-wrap
+
+Answer:
+In the Flexbox layout model, the following key properties play a crucial role in determining the layout and alignment of items within a container:
+
+1) justify-content: It is used to control the alignment of flex items along the main axis of the flex container.It determines how the extra space or insufficient space along the main axis is distributed.This property determines how the space between and around items is distributed within the flex container. It can take values such as flex-start, center, space-between, space-around,space-evenly, and stretch.
+e.g) If you set justify-content:center; dlex items will be centered along the main axis of the container
+
+2) align-items: This property controls the vertical(cross-axis) alignment of flex-items within the flex container. It can take values such as flex-start, center, baseline, and stretch.
+e.g) If you set align-items:center; flex items will be vertically centered within the container; If you set align-items:stretch; items will expand to fill the entire cross axis of the container, ensuring they have the same height.
+
+3) gap: This property sets the space between items in the flex container. It can be used to set the horizontal and vertical gap between items.
+e.g) If you set the gap:40px;there will be 40px gap between adjacent flex items in both horizontal and vertical directions
+
+4) flex-direction: This property determines the direction in which the flex items are laid out within the flex container. It can take values such as row, row-reverse, column, and column-reverse
+e.g) If you set flex-direction:column; flex items will be stacked vertically within the container.
+If you set flex-direction:row-reverse; flex items will be laid out in reverse order along the main axis of the container.
+If you set flex-direction:column-reverse; flex items will be stacked vertically in reverse order within the container.
+
+5) flex-wrap: This property determines whether the flex items should wrap to a new line when the container is not large enough to accommodate all the items. It can take values such as wrap and nowrap.
+e.g) If you set flex-wrap:wrap; flex items will wrap to a new line when
+the container is not large enough to accommodate all the items.
+If you set flex-wrap:nowrap; flex items will not wrap to a new line and will overflow
+the container if it is not large enough to accommodate all the items.
+
+These properties work together to create a flexible and responsive layout that adapts to different screen sizes and device orientations. By adjusting these properties, developers can create complex and dynamic layouts that meet their design requirements.

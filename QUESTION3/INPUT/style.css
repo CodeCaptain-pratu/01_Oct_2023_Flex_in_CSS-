@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:#fff;
+}
+html,body{
+    width: 100%;
+    height:100%;
+}
+/* display:flex should be given to the parent element */
+body{
+    display: flex;
+    justify-content: center;
+    /* justify-content will centered it to the main axis */
+    align-items: center;
+    /* align-items will centered it to the cross axis */
+
+}
+#box{
+    width: 400px;
+    height:400px;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    /* justify-content will centered the items inside the #box container to the main axis */
+    align-items: center;
+    /* align-items will centered the items inside the #box container to the cross axis */
+
+}
