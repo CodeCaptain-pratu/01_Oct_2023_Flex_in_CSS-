@@ -1,4 +1,4 @@
-QUESTION:Describe the main differences between the CSS Flexbox layout model and the CSS Grid layout model. When would you choose to use one over the other?
+QUESTION: Describe the main differences between the CSS Flexbox layout model and the CSS Grid layout model. When would you choose to use one over the other?
 Answer:
 CSS Flexbox and CSS Grid are two layout models in CSS that help developers create responsive and flexible userinterfaces. While both models share some similarities, they have distinct differences in their approach, usage, and application.
 
