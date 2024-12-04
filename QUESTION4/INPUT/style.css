@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+.pricingSection{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    background-color: #f4f2fd;
+    box-sizing: border-box;
+}
+.card{
+    width:295px;
+    height: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-left: 35px;
+    padding-bottom: 30px;
+    box-shadow: 0 4px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.plan{
+    font-size: 36px;
+    font-weight: 100;
+}
+.planFor{
+    font-size: 16px;
+    margin-top: 4px;
+}
+.price{
+    font-size: 36px;
+    font-weight: 100;
+    margin: 12px 0;
+}
+.featuresContainer
+{
+    margin: 20px 40px 20px 0;
+}
+.features
+{
+    display: flex;
+    align-items: center;
+}
+.features i{
+    background-color: #202842;
+    color:#fff;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 4px 4px 4px 0;
+}
+.subscribeButtonContainer{
+    display: flex;
+    justify-content: center;
+    margin-left: -45px;
+}
+.subscribeButton{
+    background-color: #202842;
+    color:#fff;
+    padding: 10px 35px;
+    border-radius: 24px;
+    border-color: transparent;
+    font-size: 18px;
+}
+.dark{
+    background:#202842;
+    color:#fff;
+}
+.dark-btn{
+    background-color: #fff;
+    color:#202842;
+    font-weight: 400;
+}

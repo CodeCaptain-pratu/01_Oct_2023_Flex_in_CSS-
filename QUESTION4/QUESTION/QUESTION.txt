@@ -1,0 +1,2 @@
+QUESTION:Q4. A client of yours wants to add a pricing section on their website to showcase their newly introduce premium plans.
+You have to build the pricing section for their business. They have provided you with the figma design for the same. 
