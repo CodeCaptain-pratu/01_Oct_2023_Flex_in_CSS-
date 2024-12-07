@@ -72,3 +72,48 @@ nav{
     object-fit: cover;
     object-position: center;
 }
+/* main section */
+.titles{
+    border:2px solid red;
+}
+.main-title{
+    font-size:30px;
+}
+.subTitle{
+    border:2px solid blue;
+    display: flex;
+    gap:10px;
+    font-size: 1.6rem;
+}
+.subTitle .greenTitle{
+    color:green;
+}
+.subTitle .orangeTitle{
+    color:orange;
+}
+.subTitle .blueTitle{
+    color:blue;
+}
+.buttonWrapper{
+    border:2px solid green;
+    display: flex;
+    gap:10px;
+}
+.buttonWrapper button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: transparent;
+    border:1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buttonWrapper .selected{
+    background-color: rgba(15, 15, 231, 0.849);
+    color:#fff;
+    border-color: rgba(15, 15, 231, 0.849);
+}
