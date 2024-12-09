@@ -6,17 +6,18 @@
     list-style: none;
 }
 .trainSectionWrapper{
-    border:2px solid black;
-    width: 100%;
-    height: 100vh;
+    /* border:2px solid black; */
     display: flex;
     margin: 0 auto;
-    /* max-width: 1440px; */
-    /* min-width: 1024px; */
+    max-width: 1440px;
+    min-width: 1024px;
 }
 /* left section */
 .leftSection{
     width:50%;
+    padding: 50px 40px;   
+    display: flex;
+    flex-direction: column;
 }
 /* navigation  */
 nav{
@@ -24,14 +25,15 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    margin-bottom: 80px;
 }
 .logoContainer{
     display: flex;
     gap:20px;
 }
 .logoContainer img{
-    width:80px;
-    height:80px;
+    width:70px;
+    height:70px;
     object-position: center;
 }
 .navigation{
@@ -73,17 +75,23 @@ nav{
     object-position: center;
 }
 /* main section */
-.titles{
-    border:2px solid red;
+main{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
 }
-.main-title{
-    font-size:30px;
+.titles{
+    /* border:2px solid red; */
+}
+.mainTitle{
+    font-size:40px;
+    margin-bottom: 20px;
 }
 .subTitle{
-    border:2px solid blue;
+    /* border:2px solid blue; */
     display: flex;
-    gap:10px;
-    font-size: 1.6rem;
+    gap:14px;
+    font-size: 27px;
 }
 .subTitle .greenTitle{
     color:green;
@@ -95,15 +103,15 @@ nav{
     color:blue;
 }
 .buttonWrapper{
-    border:2px solid green;
+    /* border:2px solid green; */
     display: flex;
-    gap:10px;
+    gap:15px;
 }
 .buttonWrapper button{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:10px;
+    gap:20px;
     padding: 5px 10px;
     font-size: 12px;
     font-weight: 700;
@@ -113,7 +121,79 @@ nav{
     cursor: pointer;
 }
 .buttonWrapper .selected{
-    background-color: rgba(15, 15, 231, 0.849);
+    border-color: #213d77;
+    background-color: #213d77;
+    color: white;
+}
+/* Journey details container */
+.journeyDetailsContainer{
+    /* border:2px solid black; */
+}
+.journeyDetailsTopContainer{
+    border: 1px solid lightgray;
+    padding: 15px 0px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly
+}
+.trainFrom{
+    /* border:2px solid black; */
+    display: flex;
+    align-items: center;
+}
+.trainFromImgContainer{
+    width:40px;
+    height:40px;
+}
+.trainTo{
+    /* border:2px solid black; */
+    display: flex;
+    align-items: center;
+}
+.trainToImgContainer{
+    width:40px;
+    height:40px;
+}
+.trainFromDetails{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    cursor: pointer;
+}
+.dropdown{
+    /* border:2px solid black; */
+    display: flex;
+    align-items: center;
+    color:grey;
+}
+/* .location{
+    font-size: 12px;
+    color:grey;
+} */
+.journeyDetailsBottomContainer{
+    border:1px solid lightgrey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 0;
+    margin: 10px;
+}
+/* search train button */
+.searchBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+    font-weight: 700;
+    background-color: #01BB0A;
+    padding: 15px 0;
+    font-size: 20px;
     color:#fff;
-    border-color: rgba(15, 15, 231, 0.849);
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
 }
