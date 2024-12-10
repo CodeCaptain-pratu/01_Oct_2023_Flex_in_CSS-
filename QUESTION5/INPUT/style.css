@@ -6,7 +6,6 @@
     list-style: none;
 }
 .trainSectionWrapper{
-    /* border:2px solid black; */
     display: flex;
     margin: 0 auto;
     max-width: 1440px;
@@ -21,7 +20,6 @@
 }
 /* navigation  */
 nav{
-    /* border:2px solid blue; */
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -80,15 +78,11 @@ main{
     flex-direction: column;
     gap:50px;
 }
-.titles{
-    /* border:2px solid red; */
-}
 .mainTitle{
     font-size:40px;
     margin-bottom: 20px;
 }
 .subTitle{
-    /* border:2px solid blue; */
     display: flex;
     gap:14px;
     font-size: 27px;
@@ -103,7 +97,6 @@ main{
     color:blue;
 }
 .buttonWrapper{
-    /* border:2px solid green; */
     display: flex;
     gap:15px;
 }
@@ -126,9 +119,6 @@ main{
     color: white;
 }
 /* Journey details container */
-.journeyDetailsContainer{
-    /* border:2px solid black; */
-}
 .journeyDetailsTopContainer{
     border: 1px solid lightgray;
     padding: 15px 0px;
@@ -140,7 +130,6 @@ main{
     justify-content: space-evenly
 }
 .trainFrom{
-    /* border:2px solid black; */
     display: flex;
     align-items: center;
 }
@@ -149,7 +138,6 @@ main{
     height:40px;
 }
 .trainTo{
-    /* border:2px solid black; */
     display: flex;
     align-items: center;
 }
@@ -164,15 +152,10 @@ main{
     cursor: pointer;
 }
 .dropdown{
-    /* border:2px solid black; */
     display: flex;
     align-items: center;
     color:grey;
 }
-/* .location{
-    font-size: 12px;
-    color:grey;
-} */
 .journeyDetailsBottomContainer{
     border:1px solid lightgrey;
     display: flex;
